@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <TextView
+                android:text="餐饮服务信息"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="下 载"
+                android:id="@+id/down_cyxz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <TextView
+                android:text="药品零售企业"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="下 载"
+                android:id="@+id/down_ypxz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <TextView
+                android:text="获取联系人"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="下 载"
+                android:id="@+id/down_lxrxz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+</LinearLayout>
